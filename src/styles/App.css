@@ -2,6 +2,39 @@
   text-align: center;
 }
 
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: blue;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  padding: 4px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+.products {
+  display: grid;
+  grid-template-columns:repeat(4, 300px);
+  
+  gap: 20px;
+}
+
+.desc {
+ text-overflow: clip;
+}
+
+.input {
+  width: 300px;
+  height:50px;
+  border-radius: 50px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

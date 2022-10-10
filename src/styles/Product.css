@@ -1,0 +1,4 @@
+.product{
+display: grid;
+columns: repeat(3fr, 3);
+}
