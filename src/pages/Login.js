@@ -10,23 +10,18 @@ export default function Login () {
     
     const [logginIn, setLoggedIn] = useState(false)
 
-    // 
-    
-    
     const handleLogin = () => {
         setLoggedIn(!logginIn)
-    }
 
-    const handleLogout = () => {
-        setLoggedIn(!logginIn)
     }
+    
 
     return (
         <div>
-            <button onClick={handleLogin}>Log in</button>
-            <button onClick={handleLogout} >Log out</button>
+            <button id='Login' onClick={handleLogin}> {logginIn? <Loggedin/> : <Loggedout/>}</button>
+           
 
-                {logginIn? <Loggedin/> : <Loggedout/>}
+               
         </div>
     )
 }

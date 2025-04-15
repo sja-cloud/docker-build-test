@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.grid-4{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .green {
   background-color: green;
 }
